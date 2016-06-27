@@ -1,16 +1,23 @@
 {
-  "name": "chaty",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0",
-    "socket.io": "^1.4.8"
-  }
+    "name": "chaty",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/davidasensio/chaty.git"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.14.0",
+        "socket.io": "^1.4.8"
+    }
 }

@@ -8,6 +8,8 @@ Chaty es una aplicación de chat hecha en node.js, bootstrap y mongodb. Desarrol
 * node app.js 
 * Ir a **[localhost:8080/chat]**
 
+o también se puede probar en la web en **[Red Hat Open Shift]**
+
 #### Integrantes del equipo
 * Ming
 * Edgar
@@ -16,3 +18,4 @@ Chaty es una aplicación de chat hecha en node.js, bootstrap y mongodb. Desarrol
 * David
 
 [localhost:8080/chat]: http://localhost:8080/chat
+[Red Hat Open Shift]: http://chaty-davidasensio.rhcloud.com/chat
