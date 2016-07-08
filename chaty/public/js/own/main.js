@@ -5,7 +5,7 @@ $(document).ready(function() {
         socket.on('updatechat', processMessage);
         socket.on('updateusers', updateUserList);
         $('#datasend').click(sendMessage);
-        $('data').keypress(processEnterPress);
+        $('#data').keypress(processEnterPress);
 });
 
 function addUser() {
@@ -15,7 +15,7 @@ function addUser() {
 }
 
 function processMessage(username, data) {
-    $('<b>' + username + ':</b>' + data + '<br />').insertAfter($('#conversation'));
+    $('<b>' + username + ':</b>' + data + '<br />').insertBefore($('#messages'));
 }
 
 function updateUserList(data) {
@@ -33,6 +33,7 @@ function sendMessage() {
 }
 
 function processEnterPress(e) {
+
     if (e.which === 13) {
         e.preventDefault();
         $(this).blur();
