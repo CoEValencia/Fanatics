@@ -37,7 +37,7 @@ header img {
 }
 
 .background-image {
-    background-image: url("https://pixabay.com/get/e836b50e20fc003ed1534705fb0938c9bd22ffd41db717469df3c278af/wolf-1341881_1920.jpg");
+    background-image: url("https://goo.gl/yBAqEe");
     position: absolute;
     background-position: center center;
     background-size: cover;
@@ -50,8 +50,39 @@ header img {
 }
 
 .eslogan {
+    /*
+    position: relative;
+    top: 20vh;
+*/
     margin-left: 50px;
     max-width: 500px;
-    color: #34495E;
+    color: #fff;
     font-size: 60px;
+}
+
+.stream-box {
+    display: inline-block;
+    min-width: 500px;
+    margin-left: 50px;
+}
+
+.stream-box > h4 {
+    color: #fff;
+}
+
+.stream-box > span {
+    background-color: #fff;
+    display: inline-block;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stream-box > input {
+    width: 400px;
+    border: none;
+    display: inline-block;
+    height: 40px;
 }
