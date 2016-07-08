@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0px !iportant;
+    padding: 0px !important;
+    margin-top: 0px !important;
+}
+html, body{
+    height: 100%;
+}
+
+.container-fluid{
+    height: 100vh
+}
+
+.red, .green{
+    height: 100%;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    /*background-color: green;*/
+}
+.back{
+    position: absolute;
+    background-image: url("http://lorempixel.com/1920/1080/");
+    background-size: cover;
+    /*overflow: hidden;*/
+    background-position: center center;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    height: 100vh;
+    top: 0px;
+    /*left:480px;*/
+    width: 100%;
+    z-index: -1;
+
+}
+
+.flowInput{
+    height:100%;
+}
+.left-panel{
+    background-color: #ECF0F1;
+    height: 100vh;
+}
+.foot{
+    background-color: #A5A8A8;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    vertical-align: middle;
+}
+.right-align{
+    float: right;
+    margin: 0px 20px;
+    padding: 3px 0px !important;
+}
+.streamName{
+    color: #949FA2;
+    font-size: 45px;
+}
+.streamIcon{
+    font-size: 45px;
+    font-weight: 550;
+    margin-top: 11px !important;
+    color: #34495E;
+}
+.searcher{
+    background-color: white;
+}
+.full-height{
+    height:100%
+}
